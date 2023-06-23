@@ -27,15 +27,15 @@ export const ARMAN: IAuthor = {
     name: "Arman Mondal",
     designation: "Software Engineer",
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    profilePic: "",
+    profilePic: "https://avatars.githubusercontent.com/u/132995280?v=4",
     social: [
         {
             icon: <AiFillGithub />,
-            link: 'https://github.com/nARMAN'
+            link: 'https://github.com/arman-mondal'
         },
         {
             icon: <AiFillLinkedin />,
-            link: 'https://www.linkedin.com/in/ARMAN-nalwala/'
+            link: 'https://www.linkedin.com/in/ARMAN-/'
         },
     ]
 }
@@ -43,7 +43,7 @@ export const ARMAN: IAuthor = {
 
 // This can your company name / your name etc for SEO purposes
 export const WEBSITE_NAME: string = 'Tech Arman ';
-export const WEBSITE_URL: string = 'https://nextjs-simple-blog-template.web.app/';
+export const WEBSITE_URL: string = 'https://blogs.armanmondal.in';
 
 /**
  * This is the main navigation setup.
@@ -76,7 +76,7 @@ export const PRIMARY_NAV: iNavSetup = {
         {
             // to open a link in new tab pass newTab: true
             label: 'Support Us',
-            path: 'https://www.buymeacoffee.com/webexpe13z',
+            path: 'https://www.buymeacoffee.com/armanmondal',
             newTab: true
         },
       
@@ -98,7 +98,7 @@ export const PRIMARY_NAV: iNavSetup = {
         },
         {
             label: 'Support Us',
-            path: 'https://www.buymeacoffee.com/webexpe13z',
+            path: 'https://www.buymeacoffee.com/armanmondal',
             newTab: true
         },
        
@@ -117,7 +117,7 @@ export const PRIMARY_NAV: iNavSetup = {
             icon: <AiFillInstagram />
         },
         {
-            link: 'https://twitter.com/WebExpe',
+            link: 'https://twitter.com/arman',
             icon: <AiOutlineTwitter />
         },
     ]
