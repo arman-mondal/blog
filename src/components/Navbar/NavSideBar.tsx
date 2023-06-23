@@ -28,7 +28,7 @@ const NavSidebar = ({ openSidebar = false, closeNavSidebar, navSetup, changeThem
         }
     }, [openSidebar]);
 
-    const env = process.env.NODE_ENV;
+    const env = "production";
     const [openDD, setOpenDD] = useState(false)
 
     return (

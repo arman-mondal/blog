@@ -23,43 +23,26 @@ import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin, AiFillInstagram, AiFill
 }
  */
 
-export const MAYUR: IAuthor = {
-    name: "Mayur Nalwala",
+export const ARMAN: IAuthor = {
+    name: "Arman Mondal",
     designation: "Software Engineer",
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     profilePic: "",
     social: [
         {
             icon: <AiFillGithub />,
-            link: 'https://github.com/nmayur'
+            link: 'https://github.com/nARMAN'
         },
         {
             icon: <AiFillLinkedin />,
-            link: 'https://www.linkedin.com/in/mayur-nalwala/'
-        },
-    ]
-}
-
-export const RUPALI: IAuthor = {
-    name: "Rupali Yadav",
-    designation: "IT Analyst",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    profilePic: "",
-    social: [
-        {
-            icon: <AiFillGithub />,
-            link: 'https://github.com/rupali-yadav'
-        },
-        {
-            icon: <AiFillLinkedin />,
-            link: 'https://www.linkedin.com/in/rupali-yadav-087bb4112/'
+            link: 'https://www.linkedin.com/in/ARMAN-nalwala/'
         },
     ]
 }
 
 
 // This can your company name / your name etc for SEO purposes
-export const WEBSITE_NAME: string = 'Next Js Blog Template';
+export const WEBSITE_NAME: string = 'Tech Arman ';
 export const WEBSITE_URL: string = 'https://nextjs-simple-blog-template.web.app/';
 
 /**
@@ -77,7 +60,7 @@ export const PRIMARY_NAV: iNavSetup = {
     // },
     logo: {
         type: LogoType.TEXT,
-        logo: 'Next Blog',
+        logo: 'Tech Arman',
     },
     // navLinks are the main navbar links that apper on top of every page
     navLinks: [
@@ -85,12 +68,7 @@ export const PRIMARY_NAV: iNavSetup = {
             label: 'Home',
             path: '/'
         },
-        {
-            // for categories don't add path and add type: dropdown and pass path empty
-            label: 'Blog',
-            type: 'dropdown',
-            path: ''
-        },
+        
         {
             label: 'About Us',
             path: '/about-us'
@@ -101,11 +79,7 @@ export const PRIMARY_NAV: iNavSetup = {
             path: 'https://www.buymeacoffee.com/webexpe13z',
             newTab: true
         },
-        {
-            label: 'Github Repo',
-            path: 'https://github.com/webexpe13/blog-template-using-nextjs-typescript-tailwindcss',
-            newTab: true
-        },
+      
         {
             label: 'Contact Us',
             path: '/contact-us'
@@ -117,12 +91,7 @@ export const PRIMARY_NAV: iNavSetup = {
             label: 'Home',
             path: '/'
         },
-        {
-            // for categories dont add path and add type: dropdown
-            label: 'Blog',
-            type: 'dropdown',
-            path: ''
-        },
+       
         {
             label: 'About Us',
             path: '/about-us'
@@ -132,11 +101,7 @@ export const PRIMARY_NAV: iNavSetup = {
             path: 'https://www.buymeacoffee.com/webexpe13z',
             newTab: true
         },
-        {
-            label: 'Github Repo',
-            path: 'https://github.com/webexpe13/blog-template-using-nextjs-typescript-tailwindcss',
-            newTab: true
-        },
+       
         {
             label: 'Contact Us',
             path: '/contact-us'
@@ -159,11 +124,11 @@ export const PRIMARY_NAV: iNavSetup = {
 }
 
 export const DEFAULT_SEO: iSEO = {
-    title: "Nextjs simple blog template",
-    description: "A simple blog template using NextJS and Typescript.",
+    title: "Tech Arman",
+    description: "Latest and cool tricks to earn money online.",
     keywords: "Blog, next js, template, next js blog, blog setup, typescript, nextjs typescript, react js blog template, responsive blog template",
     url: WEBSITE_URL,
-    author: `${MAYUR.name}, ${RUPALI.name}`,
+    author: `${ARMAN.name}`,
     twitterHandle: '@WebExpe',
     ogImage: '/public/images/og-image.jpg'
 }
