@@ -80,7 +80,6 @@ const groww_24_06_2023 = () => {
     <tr>
       <th>Groww App Refer & Earn</th>
       <th>Details</th>
-    
     </tr>
   </thead>
   <tbody>

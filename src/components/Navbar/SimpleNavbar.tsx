@@ -38,7 +38,7 @@ const SimpleNavbar = ({ openSearch, changeTheme, toggleSideMenu, openSidebar = f
       <div className="flex items-center">
         <div className='text-[14px] font-normal items-center lg:flex hidden'>
           {
-            navLinks.map((each: iNavLink) => (
+            navLinks.map((each: iNavLink,i:any) => (
               each.type !== 'dropdown' ? !each.newTab ?
                 <LinkTo href={each.path} passHref className='mx-2'>
                   {each.label}
