@@ -34,8 +34,27 @@ import { ARMAN, } from "./_BLOG_SETUP";
 const ARTICLES_LIST: iArticle[] = [
 
   {
-    path: "/pages/offers/groww_24_06_2023.tsx",
+    path: "/pages/offers/angel_one_7_11_2023.tsx",
     featureArticle : true,
+    preview: {
+      author: ARMAN,
+      date: "June 23 2023",
+      articleTitle: "[BIG] Angel One – Refer Earn ₹1000 Amazon Gift Voucher Free | Verified",
+      shortIntro:
+        "Angel One Refer Earn Free Amazon Gift Vouchers Use Angel One Referral Code Get ₹1000 Amazon Gift Voucher Free Angel …",
+      tags: "=refer&earn,instant,verified,angelone",
+      thumbnail: "/imp_assets/offers/angelone.jpg",
+      category: "Refer and Earn",
+    },
+    seo: {
+      keywords:
+        "demo, all components, style guide, styling, css, tailwind css, tailwind, webexpe, webexpe.com, styling tutorial, icons, how to use icons in website",
+      ogImage: "/public/imp_assets/tutorials/how-to-write-first-article.svg",
+    },
+},
+  {
+    path: "/pages/offers/groww_24_06_2023.tsx",
+    featureArticle : false,
     preview: {
       author: ARMAN,
       date: "June 23 2023",
@@ -51,7 +70,11 @@ const ARTICLES_LIST: iArticle[] = [
         "demo, all components, style guide, styling, css, tailwind css, tailwind, webexpe, webexpe.com, styling tutorial, icons, how to use icons in website",
       ogImage: "/public/imp_assets/tutorials/how-to-write-first-article.svg",
     },
+    
   },
+
+ 
+
 ];
 
 export const SORTED_ARTICLES_BY_DATE = ARTICLES_LIST.sort((a, b) =>
