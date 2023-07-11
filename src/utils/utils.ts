@@ -7,7 +7,7 @@ import { MOCK_ARTICLES_LIST } from "../constants/mocks";
 import { GAEvent } from "../../google";
 
 // env
-const env = "production";
+const env = process.env.NODE_ENV;;
 export const IS_DEV_MODE = env === "development" ? true : false;
 
 /**

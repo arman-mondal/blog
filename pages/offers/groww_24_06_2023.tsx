@@ -75,7 +75,7 @@ const groww_24_06_2023 = () => {
                 <Text subtitle className="mt-5 text-red-500">
                 Groww App Referral Code June 2023 :
                 </Text>
-                <table class="table-auto text-xl">
+                <table className="table-auto text-xl">
   <thead>
     <tr>
       <th>Groww App Refer & Earn</th>

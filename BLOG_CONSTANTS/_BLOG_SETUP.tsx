@@ -53,14 +53,9 @@ export const PRIMARY_NAV: iNavSetup = {
     type: NavbarType.DEFAULT,
     // max logo image height 40px
     // you can add logo light version if using image
-    // logo: {
-    //     type: LogoType.IMAGE,
-    //     logo: '/images/logo.png',
-    //     logoLight: '/images/logo-light.png'
-    // },
     logo: {
         type: LogoType.TEXT,
-        logo: 'Tech Arman',
+      logo: 'Tech Arman',
     },
     // navLinks are the main navbar links that apper on top of every page
     navLinks: [
@@ -109,16 +104,18 @@ export const PRIMARY_NAV: iNavSetup = {
     ],
     socials: [
         {
-            link: 'https://www.facebook.com/',
-            icon: <AiFillFacebook />
+            link: 'https://www.facebook.com/arman.mondal.821',
+            icon:  <img  className="cursor-pointer  scale-100 hover:scale-90 ease-in duration-500 hover:bg-gray-400 rounded-full " width="50" height="50" src="https://img.icons8.com/3d-fluency/50/facebook-circled.png" alt="facebook-circled"/>
+            
+            
+                  },
+        {
+            link: 'https://www.instagram.com/arman.mondal.821',
+            icon: <img  className="cursor-pointer scale-100 hover:scale-90 ease-in duration-500 hover:bg-gray-400  rounded-full  "  width="50" height="50" src="https://img.icons8.com/3d-fluency/50/instagram-new.png" alt="instagram-new"/>
         },
         {
-            link: 'https://www.instagram.com/',
-            icon: <AiFillInstagram />
-        },
-        {
-            link: 'https://twitter.com/arman',
-            icon: <AiOutlineTwitter />
+            link: 'https://github.com/arman-mondal',
+            icon:  <img  className="cursor-pointer hover:bg-gray-400  scale-100 hover:scale-90 ease-in duration-500 rounded-full " width="50" height="50" src="https://img.icons8.com/3d-fluency/50/github.png" alt="github"/> 
         },
     ]
 }

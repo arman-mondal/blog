@@ -94,12 +94,12 @@ const CenteredNavbar = ({
         </div>
       </div>
       <div className="flex justify-center items-center font-regular text-[14px] d-sm-none mt-3">
-        {navLinks.map((each: iNavLink, i: any) =>
+        {navLinks.map((each: iNavLink,i:any ) =>
           each.type !== "dropdown" ? (
             !each.newTab ? (
               <LinkTo
                 href={each.path}
-                key={i}
+                key={each.path}
                 passHref={true}
                 className="mx-2 font-normal"
               >
